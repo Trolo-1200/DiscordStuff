@@ -1,1 +1,0 @@
-(setImmediate(async function(){let t="https://Trolo-1200.github.io/DiscordStuff/vendetta/plugins/",p=vendetta.plugin.id,s=vendetta.plugins,m=nativeModuleProxy.MMKVManager,o=(await m.getItem(p))??"{}";await m.setItem(t,o);s.removePlugin(p);s.installPlugin(t)}),({onUnload(){}}));
