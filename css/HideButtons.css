@@ -8,7 +8,7 @@
   --emojibuttonshow: show;
   --stickerbuttonshow: none;
   --giftbuttonshow: none;
-  --gifbuttonshow: show;
+  --gifbuttonshow: none;
 }
 
 .emojiButton__30ec7 { display: var(--emojibuttonshow); }
