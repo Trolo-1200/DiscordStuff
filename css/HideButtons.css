@@ -1,0 +1,18 @@
+/**
+ * @name HideButtons
+ * @description Hides buttons on the discord chat bar
+*/
+
+:root {
+  /* show: show | hide: none */
+  --emojibuttonshow: show;
+  --stickerbuttonshow: none;
+  --giftbuttonshow: none;
+  --gifbuttonshow: show;
+}
+
+.emojiButton__30ec7 { display: var(--emojibuttonshow); }
+.stickerButton__8af38 { display: var(--stickerbuttonshow); }
+button[aria-label="Send a gift"] { display: var(--giftbuttonshow); !important; }
+button[aria-label="Open GIF picker"] { display: var(--gifbuttonshow); !important; 
+}
