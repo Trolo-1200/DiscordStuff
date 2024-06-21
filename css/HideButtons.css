@@ -11,8 +11,8 @@
   --gifbuttonshow: none;
 }
 
-.emojiButton__30ec7 { display: var(--emojibuttonshow); }
-.stickerButton__8af38 { display: var(--stickerbuttonshow); }
+.emojiButton_d0696b { display: var(--emojibuttonshow); }
+.stickerButton_d0696b { display: var(--stickerbuttonshow); }
 button[aria-label="Send a gift"] { display: var(--giftbuttonshow); !important; }
 button[aria-label="Open GIF picker"] { display: var(--gifbuttonshow); !important; 
 }
